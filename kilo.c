@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 
+//terminal state
 struct termios orig_termios;
 
 void disableRawMode() {
